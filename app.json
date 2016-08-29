@@ -4,7 +4,8 @@
     "postdeploy": "python manage.py migrate"
   },
   "env": {
-    "WEB_CONCURRENCY": "3"
+    "WEB_CONCURRENCY": "3",
+    "DJANGO_HACKATHON_KIT_SECRET_KEY": "secretsecretigottasecret"
   },
   "formation": {
   },
