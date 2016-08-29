@@ -1,6 +1,7 @@
 {
   "name": "Hackathon",
   "scripts": {
+    "postdeploy": "python manage.py migrate"
   },
   "env": {
     "WEB_CONCURRENCY": "3"
@@ -8,7 +9,8 @@
   "formation": {
   },
   "addons": [
-
+    "papertrail",
+    "heroku-postgresql:hobby-dev"
   ],
   "buildpacks": [
 
