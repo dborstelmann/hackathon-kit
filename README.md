@@ -1,7 +1,3 @@
-# hackathon-kit
-
-
-
 Hackathon-kit
 ===========
 
