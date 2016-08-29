@@ -1,0 +1,50 @@
+@white: #fff;
+@black: #000;
+@dark-white: #eee;
+@barely-not-white: #f5f5f5;
+@light-gray: #aaa;
+@lightish-gray: #999;
+@gray: #666;
+@dark-gray: #333;
+@deep-gray: #181818;
+@text: #333;
+@box-shadow-gray: rgba(0,0,0,0.26);
+
+html {
+    font-family: 'Lato', sans-serif;
+    color: @text;
+}
+
+// All bold text
+.bold-text {
+    font-weight: 600;
+}
+
+//For subtitles
+.gray-text, .grey-text {
+    color: @gray;
+}
+
+//For subtitles on dark backgrounds
+.light-gray-text {
+    color: @light-gray;
+}
+
+// Dark background text
+.dark-white-text {
+    color: @dark-white;
+}
+
+.white-text {
+    color: @white;
+}
+
+// This is because all text should be dark gray, not black
+.black-text {
+    color: @text !important;
+}
+
+//Scroll Divs
+.scroll-col {
+    overflow: scroll;
+}

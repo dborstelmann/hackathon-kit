@@ -1,0 +1,24 @@
+<!doctype html>
+
+<head>
+    {% load staticfiles %}
+    {% include "base/links.html" %}
+    {% include "base/less_headers/hello_less.html" %}
+</head>
+
+<script id="hello-template" type="text/template">
+    {% include "partials/hello/hello_base.html" %}
+</script>
+
+<body>
+    <div id="hello">
+
+    </div>
+</body>
+
+<script type="text/javascript" src="{% static "js/hello.js" %}"></script>
+<script type="text/javascript">
+    var helloView = new cw.HelloView();
+</script>
+
+</html>
