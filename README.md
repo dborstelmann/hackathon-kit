@@ -1,7 +1,7 @@
 Hackathon-kit
 ===========
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ```
 export HACKATHON_KIT_LOCAL_NAME=<your_db_name>
