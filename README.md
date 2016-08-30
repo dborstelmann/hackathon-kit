@@ -99,6 +99,8 @@ Every time you push code to your repository that you want on your server, **run 
 git push heroku master
 ```
 
+For more information on deploying with git to Heroku, look here: [Heroku: Deploying with Git](https://devcenter.heroku.com/articles/git)
+
 
 ## Frontend Stack
 
