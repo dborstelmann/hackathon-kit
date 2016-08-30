@@ -92,7 +92,7 @@ If you want to change the settings of this deployment, please visit [app.json](.
 1. **Clean, organized, and modular code that can be easily reused.**
 2. **Only the stuff you need for the page you are on, no big build files that make page loads slow.**
 
-All of the frontend code is stored in the `webapp` folder.  Inside this you will find the **static** folder and the templates folder.  Let's start with the static folder.
+All of the frontend code is stored in the `webapp` folder.  Inside this you will find the `static` folder and the `templates` folder.  Let's start with the `static` folder.
 
 - `dependencies`
     - All the frontend dependencies you would expect
@@ -132,7 +132,7 @@ All of the frontend code is stored in the `webapp` folder.  Inside this you will
         - I have included a set of color variables for white, gray, and black, as well as some custom classes and an app font to get you started
     - All your other less files will import `base.less` or whatever file you choose to serve that purpose.  You can see this in `hello.less`
 
-Now let's look at the **templates** folder.  Anything at the top level in this folder would be a page in your app (an html file you return from a Django view).
+Now let's look at the `templates` folder.  Anything at the top level in this folder would be a page in your app (an html file you return from a Django view).
 
 - The `base` folder
     - `links.html` has a list of the core dependencies needed on all pages (this includes any standard `js` files you want app-wide, Google Fonts, and Google Material Icons)
