@@ -96,7 +96,15 @@ If you want to change the settings of this deployment, please visit [app.json](.
     - Papertrail
         - Free app that allows you to view server logs easily
 
-Every time you push code to your repository that you want on your server, **run the following from your project directory:**
+Once deployed on Heroku, you will want to download the [heroku toolbelt](https://devcenter.heroku.com/articles/heroku-command-line) to your local system.
+
+Then run the below command to connect your local git repo with your Heroku instance, replacing 'PROJECTNAME' with the name you set on your Heroku app when you deployed it.
+
+```
+heroku git:remote -a PROJECTNAME
+```
+
+Every time you push code to the Heroku server server, **run the following from your project directory:**
 
 ```
 git push heroku master
