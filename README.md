@@ -16,7 +16,7 @@ Hackathon-kit -- but it is so much more
     - Views
 - Materialize (easily swappable to bootstrap if you prefer)
 - Less
-    - less.js compiles in the browser so this is not recommended for production environments
+    - less.js compiles in the browser, this is not recommended for production environments
 
 ## Local Setup
 
