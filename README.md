@@ -11,6 +11,7 @@ Hackathon Kit &mdash; and so much more
     - Models
     - Views
     - Auth (including already built `login`, `logout`, and `register` views)
+- jQuery
 - Underscore
     - Templates
 - Backbone
