@@ -138,7 +138,7 @@ Now let's look at the `templates` folder.  Anything at the top level in this fol
 - The `base` folder
     - `links.html` has a list of the core dependencies needed on all pages (this includes any standard `js` files you want app-wide, Google Fonts, and Google Material Icons)
     - The `less_headers` folder
-        - This is where you decide which less gets loaded for each page you return from a Django view, here is an example from `hello_less.html` (This file gets linked in the page's html file.)
+        - This is where you decide which less files get loaded for each page you return from a Django view, here is an example from `hello_less.html` (This file gets linked in the page's html file.)
 
             ```html
             {% load staticfiles %}
