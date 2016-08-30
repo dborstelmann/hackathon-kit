@@ -68,7 +68,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-That's really all you need to get started, however I have added sections below on the one-button install to [Heroku](https://www.heroku.com/) and an explanation of the frontend stack.
+That is all you need to get started, however I have added sections below on the one-button install to [Heroku](https://www.heroku.com/) and an explanation of the frontend stack.
 
 
 ## Deploying to Heroku
