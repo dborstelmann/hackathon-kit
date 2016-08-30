@@ -51,7 +51,7 @@ export HACKATHON_KIT_LOCAL_PASSWORD=<your_password>
 export DJANGO_HACKATHON_KIT_SECRET_KEY="random_string_here"
 ```
 
-> Note: If you don't want to have to set these variables every single time you open a shell, you can either set them in your .bashrc (or .zshrc like me) file or you can write a script to run them for you.  Up to you.
+> Note: If you don't want to have to set these variables every single time you open a shell, you can either set them in your .bashrc (or .zshrc like me) or you can write a script to run them for you.  Up to you.
 
 Then we need to bring your database up to date with the state of your models.
 
