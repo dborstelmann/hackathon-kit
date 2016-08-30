@@ -184,7 +184,7 @@ Now let's look at the **templates** folder.  Anything at the top level in this f
 
 <script type="text/javascript" src="{% static "js/hello.js" %}"></script>
 <script type="text/javascript">
-    var helloView = new cw.HelloView();
+    var helloView = new hk.HelloView();
 </script>
 
 </html>
