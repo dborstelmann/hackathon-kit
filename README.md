@@ -194,7 +194,7 @@ Now let's look at the **templates** folder.  Anything at the top level in this f
 - The import for your Backbone views for this specific page
 - The initialization of your Backbone view for this page
 
-#### An example Backbone view including
+#### An example Backbone view
 > Note: The template is grabbed out of the script tag using jQuery and then turned into an Underscore template to be rendered
 
 ```javascript
