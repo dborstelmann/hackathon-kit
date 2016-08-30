@@ -164,7 +164,7 @@ Now let's look at the `templates` folder.  Anything at the top level in this fol
         {% endverbatim %}
         ```
 
-#### An example html file returned by Django
+#### An example html file returned by a Django view
 
 ```html
 <!doctype html>
