@@ -42,7 +42,7 @@ Make sure you have Django installed. (If not, run `pip install Django`)
 
 Next we need to install all of the requirements for the Django project.
 
-**Run the following in your shell**
+**Run the following from your project directory in your shell:**
 
 ```
 pip install -r requirements.txt
