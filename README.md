@@ -2,8 +2,10 @@ Hackathon Kit &mdash; and so much more
 ===========
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-### Ready made to be an instant project kit with almost no setup and easily deployable
+### Ready made to be an instant project kit with almost no setup and is easily deployed
+
 #### The stack is made up of the following:
+
 - PostgreSQL
 - Django
     - Models
