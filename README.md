@@ -104,7 +104,7 @@ All of the frontend code is stored in the `webapp` folder.  Inside this you will
             - While it says they are minified, if you open the actual file you will see this is untrue.  This is for easier development, please minify before pushing to production.
 - `js`
     - Stores any Backbone views, models, and collections files
-    - Also where general app code goes. For example, there is already a `base.js` file which has a few utility functions and template settings for Underscore (mustache or handlebars style), including an app namespace.  Here is `base.js`
+    - Also where general app code goes. For example, there is already a `base.js` file which has a few utility functions and template settings for Underscore (mustache or handlebars style), and an app namespace.  Here is `base.js`
 
         ```javascript
         hk = {};
