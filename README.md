@@ -194,11 +194,10 @@ Now let's look at the `templates` folder.  Anything at the top level in this fol
 ```
 - You can see all of the imports we talked about above (links, less headers, and an example template that will be used in our Backbone view)
 - A `body` and page level `div` for your Backbone view to render it's content in
-- The import for your Backbone views for this specific page
+- The import for your Backbone code for this specific page
 - The initialization of your Backbone view for this page
 
 #### An example Backbone view
-> Note: The template is grabbed out of the script tag using jQuery and then turned into an Underscore template to be rendered
 
 ```javascript
 hk = hk || {};
@@ -219,3 +218,4 @@ hk.HelloView = BB.View.extend({
     },
 });
 ```
+> Note: The template is grabbed out of the script tag using jQuery and then turned into an Underscore template to be rendered
