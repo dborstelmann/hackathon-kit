@@ -76,4 +76,4 @@ This project is already set up to be immediately deployed to **Heroku** through 
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-If you want to change the settings of this deployment, please visit [app.json](./blob/master/app.json)
+If you want to change the settings of this deployment, please visit [app.json](./app.json)
