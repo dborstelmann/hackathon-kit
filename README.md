@@ -116,7 +116,7 @@ All of the frontend code is stored in the `webapp` folder.  Inside this you will
             escape: /\{\{(?!#|=)(.+?)\}\}/g
         };
 
-        // Usage: {{hk.underscorePartial('your-template-selector', templateScopedData)}}
+        // Usage (in your Underscore template): {{hk.underscorePartial('your-template-selector', templateScopedData)}}
         hk.underscorePartial = function (templateSelector, data) {
             return _.template($('#' + templateSelector).html())(data);
         };
