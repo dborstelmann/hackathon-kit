@@ -1,4 +1,4 @@
-Hackathon Kit -- but it is so much more
+Hackathon Kit &mdash; but it is so much more
 ===========
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
