@@ -38,7 +38,7 @@ Now you should have a development database setup on your local machine for the a
 
 ### 2. Django
 
-Make sure you have Django installed. (If not, run `pip install django`)
+Make sure you have Django installed. (If not, run `pip install Django`)
 
 Next we need to set the following variables in our bash shell so that Django knows which database to use.
 
