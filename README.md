@@ -146,6 +146,8 @@ Now let's look at the `templates` folder.  Anything at the top level in this fol
             <link type="text/css" rel="stylesheet/less" href="{% static "less/hello.less" %}"/>
             <script src="{% static "dependencies/less.min.js" type="text/javascript" %}"></script>
             ```
+            > Note: This is where less.js compiles all of your less into css.
+
 - The `partials` folder
     - This folder is used to store all of the templates for your pages
     - I recommend making a subfolder for each page in your app as you can see I have done with `hello`
