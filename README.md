@@ -62,7 +62,7 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-**All that's left is to start your server:**
+**All that is left is to start your server:**
 
 ```
 python manage.py runserver
