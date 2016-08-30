@@ -10,7 +10,7 @@ Hackathon Kit &mdash; and so much more
 - Django
     - Models
     - Views
-    - Auth (including already built login, logout, and register views)
+    - Auth (including already built `login`, `logout`, and `register` views)
 - Underscore
     - Templates
 - Backbone
