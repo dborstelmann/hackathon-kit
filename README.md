@@ -93,7 +93,7 @@ If you want to change the settings of this deployment, please visit [app.json](.
     - Papertrail
         - Free app that allows you to view server logs easily
 
-Every time you push code to your repository that you want on your server, **run the following from your project directory**
+Every time you push code to your repository that you want on your server, **run the following from your project directory:**
 
 ```
 git push heroku master
