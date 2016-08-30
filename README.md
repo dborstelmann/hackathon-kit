@@ -236,3 +236,7 @@ hk.HelloView = BB.View.extend({
 });
 ```
 > Note: The template is grabbed out of the script tag using jQuery and then turned into an Underscore template to be rendered
+
+## Author Note
+
+Released by [Dan Borstelmann](https://github.com/dborstelmann) on August 29, 2016.
