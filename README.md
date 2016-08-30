@@ -62,7 +62,7 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-**All that is left is to start your server:**
+**All that is left is to start your server and you will have a fully working full stack web application:**
 
 ```
 python manage.py runserver
