@@ -100,7 +100,7 @@ All of the frontend code is stored in the `webapp` folder.  Inside this you will
         - Underscore
         - Backbone
         - less.js (less compiler in the browser)
-        - Materialize (`.min.css` and `.min.js`)
+        - Materialize (`materialize.min.css` and `materialize.min.js`)
             - While it says they are minified, if you open the actual file you see that they are not.  This is for easier development, please minify before pushing to production.
 - `js`
     - Stores any Backbone views, models, and collections files
