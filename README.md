@@ -41,10 +41,6 @@ Now you should have a development database setup on your local machine for the a
 
 ### 2. Django
 
-Make sure you have Django installed. (If not, run `pip install Django`)
-
-Next we need to install all of the requirements for the Django project.
-
 **Run the following from your project directory in your shell:**
 
 ```
