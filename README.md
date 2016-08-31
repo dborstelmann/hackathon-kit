@@ -104,7 +104,7 @@ Then run the below command to connect your local git repo with your Heroku insta
 heroku git:remote -a PROJECTNAME
 ```
 
-Every time you push code to the Heroku server server, **run the following from your project directory:**
+Every time you push code to the Heroku server, **run the following from your project directory:**
 
 ```
 git push heroku master
