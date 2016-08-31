@@ -98,7 +98,7 @@ If you want to change the settings of this deployment, please visit [app.json](.
 
 Once deployed on Heroku, you will want to download the [heroku toolbelt](https://devcenter.heroku.com/articles/heroku-command-line) to your local system.
 
-Then run the below command to connect your local git repo with your Heroku instance, replacing 'PROJECTNAME' with the name you set on your Heroku app when you deployed it.
+Then **run the below command** to connect your local git repo with your Heroku instance, replacing `PROJECTNAME` with the name you set on your Heroku app when you deployed it.
 
 ```
 heroku git:remote -a PROJECTNAME
