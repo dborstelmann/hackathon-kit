@@ -41,10 +41,6 @@ Now you should have a development database setup on your local machine for the a
 
 ### 2. Django
 
-Make sure you have Django installed. (If not, run `pip install Django`)
-
-Next we need to install all of the requirements for the Django project.
-
 **Run the following from your project directory in your shell:**
 
 ```
@@ -62,7 +58,7 @@ export HACKATHON_KIT_LOCAL_PASSWORD=<your_password>
 export DJANGO_HACKATHON_KIT_SECRET_KEY="random_string_here"
 ```
 
-> Note: If you don't want to have to set these variables every single time you open a shell, you can either set them in your .bashrc (or .zshrc like me) or you can write a script to run them for you.  Up to you.
+> Note: If you don't want to have to set these variables every time you open a shell, you can set them in your .bashrc (or .zshrc like me), you can write a script to export them for you, or if you use a virtual environment (recommended) follow these [instructions](#additional-notes) to have the variables always exist when in your environment.
 
 Then we need to bring your database up to date with the state of your models.
 
@@ -247,6 +243,37 @@ hk.HelloView = BB.View.extend({
 });
 ```
 > Note: The template is grabbed out of the script tag using jQuery and then turned into an Underscore template to be rendered
+
+## Additional Notes
+
+The immediate value of [Virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/install.html) is easily separating the `pip` installed requirements for different projects. Different problems call for different tools, many of which often conflict, and if you are working on a Hackathon you want as few tools affecting your code as possible in order to prevent unexpected errors.
+
+More power comes from the virtualenvwrapper in its `postactivate` & `predeactivate` files. You can run code and make changes to your environment and variables every time you enter a virtual environment, and then revert the changes when you leave. These are things that you should get familiar with before you enter a competition in order to make your time more development and less set-up!
+
+Below are handy scripts to load and unload the environment variables for your hackathon kit.
+
+edit: `~/.virtualenvs/<virtual_env_name>/bin/postactivate`
+```
+#!/bin/zsh
+# This hook is sourced after this virtualenv is activated.
+export HACKATHON_KIT_LOCAL_NAME=<your_database>
+export HACKATHON_KIT_LOCAL_USERNAME=<your_username>
+export HACKATHON_KIT_LOCAL_PASSWORD=<your_password>
+export DJANGO_HACKATHON_KIT_SECRET_KEY="random_string_here"
+echo "Hackathon kit local variables have been set."
+```
+
+edit: `~/.virtualenvs/<virtual_env_name>/bin/predeactivate`
+```
+#!/bin/zsh
+# This hook is sourced after this virtualenv is activated.
+unset HACKATHON_KIT_LOCAL_NAME
+unset HACKATHON_KIT_LOCAL_USERNAME
+unset HACKATHON_KIT_LOCAL_PASSWORD
+unset DJANGO_HACKATHON_KIT_SECRET_KEY
+echo "Hackathon kit local variables removed."
+```
+
 
 ## Author Note
 
